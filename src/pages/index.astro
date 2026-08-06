@@ -6,6 +6,14 @@ import CallToAction from '~/components/widgets/CallToAction.astro';
 
 import HeroImg1 from '~/assets/images/Switzerland-pic.jpg';
 import HeroImg2 from '~/assets/images/ballpit_inv.jpg';
+import Hisc from '~/assets/images/ATE Poster.png';
+import Polle from '~/assets/images/POLL_E.jpg';
+import Rubiks from '~/assets/images/rubiks.jpg';
+import Astra from '~/assets/images/ASTRA.jpg';
+import Torquey from '~/assets/images/torquey.jpg';
+import Diss from '~/assets/images/dissertation.jpg';
+import Zachai from '~/assets/images/zachai.jpeg';
+import Dora from '~/assets/images/dora.jpg';
 
 const displayName = 'Zachary Lucius Danzig';
 const emailAddress = 'Zachdanzig@gmail.com';
@@ -32,10 +40,10 @@ const heroImage = `
           class="h-[204px] w-full rounded-[1.75rem] object-cover shadow-2xl ring-1 ring-white/10"
         />
         <div class="rounded-[1.75rem] border border-white/10 bg-slate-950/80 p-6 text-left text-white shadow-2xl backdrop-blur">
-          <p class="text-xs uppercase tracking-[0.3em] text-cyan-300">Portfolio placeholder</p>
-          <p class="mt-3 text-2xl font-semibold">Replace this with your role, location, or current focus.</p>
+          <p class="text-xs uppercase tracking-[0.3em] text-cyan-300">Zachary Lucius Danzig</p>
+          <p class="mt-3 text-2xl font-semibold">Robotics, Mechatronics, and Control Engineering Graduate</p>
           <p class="mt-2 text-sm text-white/70">
-            Add one short line about the kind of work you want more of, or the kinds of teams you want to work with.
+            Seeking opportunities to apply my innovative thinking and hardworking nature to make the world a better place!
           </p>
         </div>
       </div>
@@ -45,36 +53,84 @@ const heroImage = `
 
 const projects = [
   {
-    title: '<INPUT_PROJECT_1_TITLE>',
-    summary: '<INPUT_PROJECT_1_SUMMARY>',
-    role: '<INPUT_PROJECT_1_ROLE>',
-    stack: '<INPUT_PROJECT_1_STACK>',
+    title: 'Robotic Object Recognition for Thousand Brains Systems',
+    summary: 'My Undergraduate Dissertation, partnered with the Thousand Brains Project',
+    role: 'Sole Developer',
+    stack: 'Python, Machine Vision, Inverse Kinematics, Stereo Vision, ToF',
+    href: '<INPUT_PROJECT_4_LINK>',
+    image: Diss.src,
+  },
+  {
+    title: 'Torque of The Town',
+    summary: 'TBA.... built from scratch.',
+    role: 'Team Lead',
+    stack: 'Arduino, Python, Machine Vision, Inverse Kinematics',
+    href: 'https://github.com/Zinxiee/Torque_of_the_Town',
+    image: Torquey.src,
+  },
+  {
+    title: 'A.S.T.R.A',
+    summary: 'Autonomous Stacker Tracker Robot Arm',
+    role: 'Team Lead',
+    stack: 'Python, Machine Vision, ROS',
+    href: 'https://www.linkedin.com/posts/zachary-danzig_robotics-ai-machinevision-activity-7216731826592055297-xNEt',
+    image: Astra.src,
+  },
+  {
+    title: 'A.D.S.T.A',
+    summary: 'Augmented Display Speech-to-Text Assistant',
+    role: 'Sole Developer',
+    stack: 'Python',
     href: '<INPUT_PROJECT_1_LINK>',
     image: '<INPUT_PROJECT_1_IMAGE>',
   },
   {
-    title: '<INPUT_PROJECT_2_TITLE>',
-    summary: '<INPUT_PROJECT_2_SUMMARY>',
-    role: '<INPUT_PROJECT_2_ROLE>',
-    stack: '<INPUT_PROJECT_2_STACK>',
-    href: '<INPUT_PROJECT_2_LINK>',
-    image: '<INPUT_PROJECT_2_IMAGE>',
-  },
-  {
-    title: '<INPUT_PROJECT_3_TITLE>',
-    summary: '<INPUT_PROJECT_3_SUMMARY>',
-    role: '<INPUT_PROJECT_3_ROLE>',
-    stack: '<INPUT_PROJECT_3_STACK>',
+    title: 'ZachAI',
+    summary: 'A quirky email daemon that can respond to a variety of queries, from cryptic crossword generation to random xkcd comics, ZachAI has it all (almost)',
+    role: 'Sole Developer',
+    stack: 'Python',
     href: '<INPUT_PROJECT_3_LINK>',
-    image: '<INPUT_PROJECT_3_IMAGE>',
+    image: Zachai.src,
   },
   {
-    title: '<INPUT_PROJECT_4_TITLE>',
-    summary: '<INPUT_PROJECT_4_SUMMARY>',
-    role: '<INPUT_PROJECT_4_ROLE>',
-    stack: '<INPUT_PROJECT_4_STACK>',
+    title: 'Rubikinators',
+    summary: 'Rubik\'s Cube Solver',
+    role: 'Sole Developer',
+    stack: 'Python, Machine Vision',
+    href: 'https://github.com/Zinxiee/Rubikinators',
+    image: Rubiks.src,
+  },
+  {
+    title: 'Hexicon',
+    summary: 'A new language based on colours!',
+    role: 'Sole Developer',
+    stack: 'Python',
     href: '<INPUT_PROJECT_4_LINK>',
     image: '<INPUT_PROJECT_4_IMAGE>',
+  },
+  {
+    title: 'CRATE - Capgemini Reusable Automated Test Equipment',
+    summary: 'Affordable test equipment for hard real-time systems. Built during my placement year at Capgemini Engineering.',
+    role: 'Intern - Mechatronics Engineer',
+    stack: 'Microcontrollers',
+    href: 'https://www.linkedin.com/posts/zachary-danzig_hisc2025-activity-7410741170147991552-QxI3',
+    image: Hisc.src,
+  },
+  {
+    title: 'D.O.R.A',
+    summary: 'Directional Orienteering Retrieval Android. Winning team!',
+    role: 'Software Engineer, communications',
+    stack: 'Arduino, Python',
+    href: 'https://www.linkedin.com/posts/zachary-danzig_robotics-engineering-loughboroughuniversity-activity-7211353275671928834-cuGu',
+    image: Dora.src,
+  },
+  {
+    title: 'POLL-E',
+    summary: 'Autonomous Bus System Prototype, partnered with Oxa (previously Oxbotica)',
+    role: 'Team Lead',
+    stack: 'Arduino',
+    href: 'https://www.linkedin.com/posts/zachary-danzig_autonomousvehicles-autonomoussystems-oxa-activity-7086079868353798144-qexa',
+    image: Polle.src,
   },
 ];
 ---
@@ -105,7 +161,7 @@ const projects = [
       Zigius · <span class="text-accent dark:text-white">Domain of Zach</span>
     </Fragment>
     <Fragment slot="subtitle">
-      Hello and welcome to <span class="font-semibold">Zigius</span>! I'm Zach and this is my domain. 
+      Hello and welcome to <span class="font-semibold">Zigius</span>! I'm Zach and this is my domain.<br />
       Scroll to see some of the projects I've worked on and find out a bit more about me!
     </Fragment>
   </Hero>
@@ -119,23 +175,15 @@ const projects = [
       <div class="grid gap-8 lg:grid-cols-[0.85fr_1.15fr] items-start intersect-once intersect-quarter motion-safe:md:opacity-0 motion-safe:md:intersect:animate-fade">
         <div>
           <p class="text-sm font-semibold uppercase tracking-[0.25em] text-secondary">About</p>
-          <h2 class="mt-3 text-3xl md:text-4xl font-bold tracking-tight dark:text-white">Zachary Lucius Danzig</h2>
+          <h2 class="mt-3 text-3xl md:text-4xl font-bold tracking-tight dark:text-white">Zachary Lucius<br />Danzig</h2>
         </div>
         <div class="space-y-4 text-lg text-muted dark:text-slate-300">
           <p>
-            {'BIO'}
+            I'm a recent graduate from Loughborough University. Achieving a first class honours in Robotics, Mechatronics, and Control Engineering.<br />
+            I'm deeply interested in the implementation of contemporary neuroscience research in artificially intelligent systems.<br />
+            My undergraduate dissertation was on Robotic Object Recognition for Thousand Brains Systems, in collaboration with the Thousand Brains Project.<br />
+            In 2026 I was selected as one of ten UK students to visit Taiwan and learn about their semiconductor industry as part of a UK-Taiwan international relations trip, arranged by the UK government alongside the UK Electronics Skills Foundation and SEMI.
           </p>
-          <p>
-            I'm a recent graduate from Loughborough University. Achieving a first class honours in Robotics, Mechatronics, and Control Engineering. 
-            I'm deeply interested in the implementation of contemporary neuroscience research in artificially intelligent systems.
-            My undergraduate dissertation was on Robotic Object Recognition for Thousand Brains Systems, in collaboration with the Thousand Brains Project.
-            In 2026 I was selected as one of ten UK students to visit Taiwan and learn about their semiconductor industry as part of a UK-Taiwan international relations trip arranged by the UK government alongside the UK Electronics Skills Foundation and SEMI.
-          </p>
-          <div class="flex flex-wrap gap-3 pt-2 text-sm font-medium">
-            <span class="rounded-full border border-slate-200 bg-white px-4 py-2 text-slate-700 shadow-sm dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200">Portfolio</span>
-            <span class="rounded-full border border-slate-200 bg-white px-4 py-2 text-slate-700 shadow-sm dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200">Selected work</span>
-            <span class="rounded-full border border-slate-200 bg-white px-4 py-2 text-slate-700 shadow-sm dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200">Direct contact</span>
-          </div>
         </div>
       </div>
     </div>
@@ -146,11 +194,10 @@ const projects = [
       <div class="flex items-end justify-between gap-6 mb-8 intersect-once intersect-quarter motion-safe:md:opacity-0 motion-safe:md:intersect:animate-fade">
         <div>
           <p class="text-sm font-semibold uppercase tracking-[0.25em] text-secondary">Projects</p>
-          <h2 class="mt-3 text-3xl md:text-4xl font-bold tracking-tight dark:text-white">Four featured projects</h2>
+          <h2 class="mt-3 text-3xl md:text-4xl font-bold tracking-tight dark:text-white">Projects I've worked on</h2>
         </div>
         <p class="hidden md:block max-w-xl text-muted dark:text-slate-300">
-          Each project card includes placeholders for title, summary, role, stack, image, and link so you can fill in the
-          details quickly.
+          Check out some of the projects I've worked on. Some are in teams and some I've tackled alone!
         </p>
       </div>
 
