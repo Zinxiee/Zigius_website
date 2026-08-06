@@ -17,7 +17,6 @@ metadata:
     follow: true
   openGraph:
     site_name: Zigius
-    site_name: Zigius
     images:
       - url: '~/assets/images/default.png'
         width: 1200
