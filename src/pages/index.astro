@@ -2,7 +2,6 @@
 import Layout from '~/layouts/PageLayout.astro';
 
 import Hero from '~/components/widgets/Hero.astro';
-import CallToAction from '~/components/widgets/CallToAction.astro';
 
 import HeroImg1 from '~/assets/images/Switzerland-pic.jpg';
 import HeroImg2 from '~/assets/images/ballpit_inv.jpg';
@@ -19,7 +18,7 @@ import TaiwanMinistry from '~/assets/images/taiwan_ministry.jpg';
 import Youth from '~/assets/images/youth.jpg';
 
 const displayName = 'Zachary Lucius Danzig';
-const emailAddress = 'Zachdanzig@gmail.com';
+const emailAddress = 'ZachDanzig@gmail.com';
 const linkedinUrl = 'https://www.linkedin.com/in/zachary-danzig/';
 
 const metadata = {
@@ -145,15 +144,15 @@ const projects = [
     id="hero"
     actions={[
       {
+        text: 'Email',
+        href: `mailto:${emailAddress}`,
+      },
+      {
         variant: 'primary',
         text: 'LinkedIn',
         href: linkedinUrl,
         target: '_blank',
         rel: 'noreferrer',
-      },
-      {
-        text: 'Email me',
-        href: `mailto:${emailAddress}`,
       },
       { text: 'Projects', href: '#projects' },
     ]}
@@ -182,8 +181,8 @@ const projects = [
         </div>
         <div class="space-y-4 text-lg text-muted dark:text-slate-300">
           <p>
-            I'm a recent graduate from Loughborough University. Achieving a first class honours in Robotics, Mechatronics, and Control Engineering.<br />
-            I'm deeply interested in the implementation of contemporary neuroscience research in artificially intelligent systems.<br />
+            I'm a recent graduate from Loughborough University. Achieving a First Class Honours in Robotics, Mechatronics, and Control Engineering.<br />
+            I'm deeply interested in the implementation of contemporary neuroscience research in artificially intelligent systems.<br /><br />
             My undergraduate dissertation was on Robotic Object Recognition for Thousand Brains Systems, in collaboration with the Thousand Brains Project.<br />
           </p>
         </div>
@@ -199,7 +198,7 @@ const projects = [
           <h2 class="mt-3 text-3xl md:text-4xl font-bold tracking-tight dark:text-white">Projects I've worked on</h2>
         </div>
         <p class="hidden md:block max-w-xl text-muted dark:text-slate-300">
-          Check out some of the projects I've worked on. Some are in teams and some I've tackled alone!
+          Check out some of the projects I've worked on. Some are in teams and some I've tackled alone! 🤖
         </p>
       </div>
 
@@ -254,9 +253,9 @@ const projects = [
       <div class="grid gap-8 lg:grid-cols-[0.9fr_1.1fr] items-center rounded-[2.5rem] border border-white/10 bg-slate-950/90 p-6 md:p-10 shadow-[0_30px_120px_-50px_rgba(236,72,153,0.6)]">
         <div class="space-y-4 text-white">
           <p class="text-sm font-semibold uppercase tracking-[0.35em] text-cyan-300">Taiwan Skills Exchange</p>
-          <h2 class="text-3xl md:text-4xl font-bold tracking-tight">A trip that expanded my perspective</h2>
+          <h2 class="text-3xl md:text-4xl font-bold tracking-tight">Understanding Taiwan's role in the Global Semiconductor Supply Chain</h2>
           <p class="text-base md:text-lg text-white/80">
-            In 2026 I was selected as one of ten UK students to visit Taiwan and learn about their semiconductor industry as part of a UK-Taiwan international relations trip, arranged by the UK government alongside the UK Electronics Skills Foundation and SEMI.
+            In 2026, I was selected as one of ten UK students to visit Taiwan and learn about their semiconductor industry as part of a UK-Taiwan international relations trip, arranged by the UK government alongside the UK Electronics Skills Foundation and SEMI Taiwan.
           </p>
         </div>
 
@@ -281,28 +280,68 @@ const projects = [
   </section>
 
   <section id="contact" class="relative not-prose">
+    <div class="absolute inset-0 pointer-events-none" aria-hidden="true">
+      <div class="absolute left-0 top-12 h-72 w-72 rounded-full bg-rose-300/20 blur-3xl"></div>
+      <div class="absolute right-8 bottom-0 h-80 w-80 rounded-full bg-cyan-300/20 blur-3xl"></div>
+      <div class="absolute inset-x-0 top-1/2 h-24 -translate-y-1/2 bg-gradient-to-r from-rose-200/40 via-amber-200/40 to-cyan-200/40"></div>
+    </div>
     <div class="relative max-w-7xl mx-auto px-4 sm:px-6 py-10 md:py-16">
-      <CallToAction
-        title="Always learning. Always curious"
-        subtitle="Reach out to me with the links below!"
-        actions={[
-          {
-            variant: 'primary',
-            text: 'LinkedIn',
-            href: linkedinUrl,
-            target: '_blank',
-            rel: 'noreferrer',
-          },
-          {
-            text: 'Email',
-            href: `mailto:${emailAddress}`,
-          },
-        ]}
-      />
-        <img
+      <div class="grid gap-8 lg:grid-cols-[1.05fr_0.95fr] items-stretch rounded-[2.5rem] border border-rose-100/80 bg-gradient-to-br from-rose-50 via-amber-50 to-cyan-50 p-6 md:p-10 shadow-[0_30px_120px_-60px_rgba(244,114,182,0.55)]">
+        <div class="flex flex-col justify-between gap-6 rounded-[2rem] bg-white/70 p-6 md:p-8 shadow-inner backdrop-blur">
+          <div class="space-y-4">
+            <p class="text-sm font-semibold uppercase tracking-[0.35em] text-rose-500">Contact</p>
+            <h2 class="text-3xl md:text-4xl font-bold tracking-tight text-slate-900">Always learning. Always curious.</h2>
+            <p class="max-w-xl text-base md:text-lg text-slate-600">
+              Reach out to me through the links below 🚀 
+            </p>
+          </div>
+
+          <div class="flex flex-col sm:flex-row gap-13">
+            <a
+              href={`mailto:${emailAddress}`}
+              class="inline-flex items-center justify-center rounded-full border border-slate-300 bg-white/800 px-6 py-3 text-sm font-semibold text-slate-900 shadow-lg shadow-slate-900/10 transition duration-300 hover:-translate-y-0.5 hover:border-rose-300 hover:bg-rose-50"
+            >
+              Email
+            </a>
+            <a
+              href={linkedinUrl}
+              target="_blank"
+              rel="noreferrer"
+              class="inline-flex items-center justify-center rounded-full bg-slate-900 px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-slate-900/20 transition duration-300 hover:-translate-y-0.5 hover:bg-slate-800"
+            >
+              LinkedIn
+            </a>
+          </div>
+
+          <dl class="grid gap-4 sm:grid-cols-3 text-sm text-slate-700">
+            <div class="rounded-2xl bg-white/80 p-4 ring-1 ring-slate-200/80">
+              <dt class="font-semibold uppercase tracking-[0.22em] text-slate-500">Email</dt>
+              <dd class="mt-2 break-all text-base text-slate-900">{emailAddress}</dd>
+            </div>
+            <div class="rounded-2xl bg-white/80 p-4 ring-1 ring-slate-200/80">
+              <dt class="font-semibold uppercase tracking-[0.22em] text-slate-500">LinkedIn</dt>
+              <dd class="mt-2 text-base text-slate-900">Zachary Danzig</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="group relative overflow-hidden rounded-[2rem] border border-white/70 bg-white/60 shadow-[0_25px_80px_-40px_rgba(15,23,42,0.35)]">
+          <div class="absolute inset-0 bg-gradient-to-t from-slate-950/55 via-slate-950/10 to-transparent"></div>
+          <img
             src={Youth.src}
-            alt="little me!"
-        />
+            alt="Young Zach portrait"
+            class="h-full min-h-[360px] w-full object-cover object-center transition duration-700 group-hover:scale-105"
+          />
+          <div class="absolute inset-x-0 bottom-0 p-5 md:p-6">
+            <div class="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/15 px-4 py-2 text-xs font-semibold uppercase tracking-[0.25em] text-white backdrop-blur">
+              Mini Me!
+            </div>
+            <p class="mt-4 max-w-md text-sm md:text-base text-white/85">
+              
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 </Layout>
