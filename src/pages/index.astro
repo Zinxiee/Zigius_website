@@ -14,6 +14,9 @@ import Torquey from '~/assets/images/torquey.jpg';
 import Diss from '~/assets/images/dissertation.jpg';
 import Zachai from '~/assets/images/zachai.jpeg';
 import Dora from '~/assets/images/dora.jpg';
+import Tsmc from '~/assets/images/tsmc.jpg';
+import TaiwanMinistry from '~/assets/images/taiwan_ministry.jpg';
+
 
 const displayName = 'Zachary Lucius Danzig';
 const emailAddress = 'Zachdanzig@gmail.com';
@@ -182,7 +185,6 @@ const projects = [
             I'm a recent graduate from Loughborough University. Achieving a first class honours in Robotics, Mechatronics, and Control Engineering.<br />
             I'm deeply interested in the implementation of contemporary neuroscience research in artificially intelligent systems.<br />
             My undergraduate dissertation was on Robotic Object Recognition for Thousand Brains Systems, in collaboration with the Thousand Brains Project.<br />
-            In 2026 I was selected as one of ten UK students to visit Taiwan and learn about their semiconductor industry as part of a UK-Taiwan international relations trip, arranged by the UK government alongside the UK Electronics Skills Foundation and SEMI.
           </p>
         </div>
       </div>
@@ -238,6 +240,42 @@ const projects = [
             </article>
           ))
         }
+      </div>
+    </div>
+  </section>
+
+  <section id="taiwan" class="relative not-prose overflow-hidden">
+    <div class="absolute inset-0 pointer-events-none" aria-hidden="true">
+      <div class="absolute left-0 top-10 h-72 w-72 rounded-full bg-pink-500/20 blur-3xl"></div>
+      <div class="absolute right-0 bottom-10 h-80 w-80 rounded-full bg-cyan-400/20 blur-3xl"></div>
+      <div class="absolute inset-x-0 top-1/2 h-24 -translate-y-1/2 bg-gradient-to-r from-fuchsia-500/10 via-amber-400/10 to-cyan-400/10"></div>
+    </div>
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 py-10 md:py-16">
+      <div class="grid gap-8 lg:grid-cols-[0.9fr_1.1fr] items-center rounded-[2.5rem] border border-white/10 bg-slate-950/90 p-6 md:p-10 shadow-[0_30px_120px_-50px_rgba(236,72,153,0.6)]">
+        <div class="space-y-4 text-white">
+          <p class="text-sm font-semibold uppercase tracking-[0.35em] text-cyan-300">Taiwan Skills Exchange</p>
+          <h2 class="text-3xl md:text-4xl font-bold tracking-tight">A trip that expanded my perspective</h2>
+          <p class="text-base md:text-lg text-white/80">
+            In 2026 I was selected as one of ten UK students to visit Taiwan and learn about their semiconductor industry as part of a UK-Taiwan international relations trip, arranged by the UK government alongside the UK Electronics Skills Foundation and SEMI.
+          </p>
+        </div>
+
+        <div class="grid gap-4 sm:grid-cols-2">
+          <div class="group overflow-hidden rounded-[2rem] border border-white/10 bg-white/5 shadow-2xl transition duration-500 hover:-translate-y-1">
+            <img
+              src={TaiwanMinistry.src}
+              alt="Taiwan trip photo 1"
+              class="h-100 w-full object-cover transition duration-700 group-hover:scale-160"
+            />
+          </div>
+          <div class="group overflow-hidden rounded-[2rem] border border-white/10 bg-white/5 shadow-2xl transition duration-500 hover:-translate-y-1 sm:mt-20">
+            <img
+              src={Tsmc.src}
+              alt="Taiwan trip photo 2"
+              class="h-80 w-full object-cover transition duration-700 group-hover:scale-110"
+            />
+          </div>
+        </div>
       </div>
     </div>
   </section>
