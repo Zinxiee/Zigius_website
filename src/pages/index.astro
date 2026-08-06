@@ -5,6 +5,7 @@ import Hero from '~/components/widgets/Hero.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
 import HeroImg1 from '~/assets/images/Switzerland-pic.jpg';
+import HeroImg2 from '~/assets/images/ballpit_inv.jpg';
 
 const displayName = 'Zachary Lucius Danzig';
 const emailAddress = 'Zachdanzig@gmail.com';
@@ -26,8 +27,8 @@ const heroImage = `
       />
       <div class="grid gap-4">
         <img
-          src="<INPUT_HERO_IMAGE_2>"
-          alt="${displayName} portrait placeholder 2"
+          src="$HeroImg2.src"
+          alt="${displayName} ballpit Image"
           class="h-[204px] w-full rounded-[1.75rem] object-cover shadow-2xl ring-1 ring-white/10"
         />
         <div class="rounded-[1.75rem] border border-white/10 bg-slate-950/80 p-6 text-left text-white shadow-2xl backdrop-blur">
