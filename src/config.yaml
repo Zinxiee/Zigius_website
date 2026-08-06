@@ -1,6 +1,6 @@
 site:
   name: Zigius
-  site: 'https://astrowind.vercel.app'
+  site: 'https://zigius.com'
   base: '/'
   trailingSlash: false
 
@@ -11,14 +11,14 @@ metadata:
   title:
     default: Zigius
     template: '%s'
-  description: 'Personal portfolio for Zigius, featuring selected work, contact links, and a clean showcase of projects.'
+  description: 'Personal portfolio, featuring selected work, contact links, and a clean showcase of projects.'
   robots:
     index: true
     follow: true
   openGraph:
     site_name: Zigius
     images:
-      - url: '~/assets/images/default.png'
+      - url: '~/assets/images/Switzerland-pic.jpg'
         width: 1200
         height: 628
     type: website
