@@ -10,7 +10,7 @@ site:
 metadata:
   title:
     default: Zigius
-    template: '%s — Zigius'
+    template: '%s'
   description: 'Personal portfolio for Zigius, featuring selected work, contact links, and a clean showcase of projects.'
   robots:
     index: true
