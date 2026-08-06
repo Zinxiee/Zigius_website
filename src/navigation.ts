@@ -27,6 +27,6 @@ export const footerData = {
     { ariaLabel: 'Email', icon: 'tabler:mail', href: 'mailto:<INPUT_EMAIL_ADDRESS>' },
   ],
   footNote: `
-    Zigius portfolio · Built for personal use.
+    Wow! Thanks for making it to the end of my website. This either means you loved the content, or scrolled right to the bottom!
   `,
 };

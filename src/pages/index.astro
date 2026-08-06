@@ -4,12 +4,12 @@ import Layout from '~/layouts/PageLayout.astro';
 import Hero from '~/components/widgets/Hero.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
-const displayName = '<INPUT_DISPLAY_NAME>';
-const emailAddress = '<INPUT_EMAIL_ADDRESS>';
-const linkedinUrl = '<INPUT_LINKEDIN_URL>';
+const displayName = 'Zachary Lucius Danzig';
+const emailAddress = 'Zachdanzig@gmail.com';
+const linkedinUrl = 'https://www.linkedin.com/in/zachary-danzig/';
 
 const metadata = {
-  title: 'Zigius — Portfolio',
+  title: 'Zigius - The Domain of Zach',
   description: 'Personal portfolio for Zigius, with selected projects, contact details, and a polished showcase of work.',
 };
 
@@ -99,12 +99,11 @@ const projects = [
   >
     <Fragment slot="tagline">Portfolio of {displayName}</Fragment>
     <Fragment slot="title">
-      Zigius <span class="text-accent dark:text-white">Portfolio</span>
+      Zigius · <span class="text-accent dark:text-white">Domain of Zach</span>
     </Fragment>
     <Fragment slot="subtitle">
-      <span class="font-semibold">Zigius</span> is a personal portfolio built to showcase selected work, a polished visual
-      style, and direct contact paths through LinkedIn and email. Replace the placeholders with your real details and
-      project assets when you are ready.
+      Hello and welcome to <span class="font-semibold">Zigius</span>! I'm Zach and this is my domain. 
+      Scroll to see some of the projects I've worked on and find out a bit more about me!
     </Fragment>
   </Hero>
 
