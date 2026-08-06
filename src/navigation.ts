@@ -3,8 +3,8 @@ import { getPermalink } from './utils/permalinks';
 export const headerData = {
   links: [
     { text: 'Home', href: getPermalink('/') },
-    { text: 'Projects', href: getPermalink('/#projects') },
     { text: 'About', href: getPermalink('/#about') },
+    { text: 'Projects', href: getPermalink('/#projects') },
     { text: 'Contact', href: getPermalink('/#contact') },
   ],
   actions: [{ text: 'Email me', href: 'mailto:<INPUT_EMAIL_ADDRESS>' }],
