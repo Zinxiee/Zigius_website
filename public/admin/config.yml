@@ -25,3 +25,4 @@ collections:
       - { label: "Caption / Excerpt", name: "excerpt", widget: "text", required: false }
       - { label: "Category", name: "category", widget: "string", required: false }
       - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Draft", name: "draft", widget: "boolean", default: false }
