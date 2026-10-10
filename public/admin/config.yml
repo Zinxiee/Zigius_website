@@ -15,7 +15,7 @@ public_folder: "~/assets/images"
 collections:
   - name: "post"
     label: "Blog Posts"
-    folder: "src/content/post" # The standard AstroWind post location
+    folder: "src/data/post" # The standard AstroWind post location
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
