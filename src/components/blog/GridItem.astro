@@ -69,16 +69,5 @@ const link = APP_BLOG?.post?.isEnabled ? getPermalink(post.permalink, 'post') : 
     }
   </h3>
 
-  {
-    post.category && (
-      <a
-        class="bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider shadow-sm"
-        href={getPermalink(post.category.slug, 'category')}
-      >
-        {post.category.title}
-      </a>
-    )
-  }
-
   <p class="text-muted dark:text-slate-400 text-lg">{post.excerpt}</p>
 </article>
