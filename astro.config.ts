@@ -5,6 +5,10 @@ import { defineConfig } from 'astro/config';
 
 import { unified } from '@astrojs/markdown-remark';
 
+import decapCmsOauth from 'astro-decap-cms-oauth';
+
+import vercel from '@astrojs/vercel';
+
 import sitemap from '@astrojs/sitemap';
 import tailwindcss from '@tailwindcss/vite';
 import mdx from '@astrojs/mdx';
@@ -24,7 +28,7 @@ const whenExternalScripts = (items: (() => AstroIntegration) | (() => AstroInteg
   hasExternalScripts ? (Array.isArray(items) ? items.map((item) => item()) : [items()]) : [];
 
 export default defineConfig({
-  output: 'static',
+  adapter: vercel(),
 
   integrations: [
     sitemap(),
@@ -45,6 +49,8 @@ export default defineConfig({
         ],
       },
     }),
+
+    decapCmsOauth(),
 
     ...whenExternalScripts(() =>
       partytown({

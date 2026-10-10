@@ -1,0 +1,27 @@
+backend:
+  name: github
+  repo: Zinxiee/Zigius_website
+  branch: main
+  base_url: https://www.zigius.com/
+  auth_endpoint: oauth
+
+# This tells Decap where to save the photos you upload from your phone
+media_folder: "src/assets/images"
+
+# This tells Decap how to reference those photos in your markdown files
+# AstroWind uses the ~ alias for the src directory
+public_folder: "~/assets/images"
+
+collections:
+  - name: "post"
+    label: "Blog Posts"
+    folder: "src/content/post" # The standard AstroWind post location
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "publishDate", widget: "datetime" }
+      - { label: "Image", name: "image", widget: "image", required: false }
+      - { label: "Caption / Excerpt", name: "excerpt", widget: "text", required: false }
+      - { label: "Category", name: "category", widget: "string", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
