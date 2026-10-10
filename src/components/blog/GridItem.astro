@@ -18,7 +18,7 @@ const link = APP_BLOG?.post?.isEnabled ? getPermalink(post.permalink, 'post') : 
 ---
 
 <article
-  class="mb-6 transition intersect-once intersect-quarter motion-safe:md:opacity-0 motion-safe:md:intersect:animate-fade"
+  class="mb-6 transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:shadow-blue-500/20 bg-white dark:bg-slate-900 p-5 rounded-3xl border border-gray-100 dark:border-gray-800"
 >
   <div class="relative md:h-64 bg-gray-100 dark:bg-slate-800 rounded shadow-lg mb-6 overflow-hidden">
     {
@@ -68,6 +68,17 @@ const link = APP_BLOG?.post?.isEnabled ? getPermalink(post.permalink, 'post') : 
       )
     }
   </h3>
+
+  {
+    post.category && (
+      <a
+        class="bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider shadow-sm"
+        href={getPermalink(post.category.slug, 'category')}
+      >
+        {post.category.title}
+      </a>
+    )
+  }
 
   <p class="text-muted dark:text-slate-400 text-lg">{post.excerpt}</p>
 </article>
