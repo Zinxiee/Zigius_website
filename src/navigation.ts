@@ -5,8 +5,8 @@ export const headerData = {
     { text: 'Home', href: getPermalink('/') },
     { text: 'About', href: getPermalink('/#about') },
     { text: 'Projects', href: getPermalink('/#projects') },
-    { text: 'Blog', href: getBlogPermalink() },
     { text: 'Contact', href: getPermalink('/#contact') },
+    { text: 'Blog', href: getBlogPermalink() },
   ],
   actions: [{ text: 'Email me', href: 'mailto:ZachDanzig@gmail.com' }],
 };
