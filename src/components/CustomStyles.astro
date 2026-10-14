@@ -1,22 +1,5 @@
 ---
 import '@fontsource-variable/inter';
-
-// 'DM Sans'
-// Nunito
-// Dosis
-// Outfit
-// Roboto
-// Literata
-// 'IBM Plex Sans'
-// Karla
-// Poppins
-// 'Fira Sans'
-// 'Libre Franklin'
-// Inconsolata
-// Raleway
-// Oswald
-// 'Space Grotesk'
-// Urbanist
 ---
 
 <style is:inline>
@@ -25,25 +8,21 @@ import '@fontsource-variable/inter';
     --aw-font-serif: 'Inter Variable';
     --aw-font-heading: 'Inter Variable';
 
-    /* Pastel Light Mode Palette */
-    /* Soft Coral Pink */
-    --aw-color-primary: rgb(255 163 163); 
-    /* Slightly deeper Peach for hover states */
-    --aw-color-secondary: rgb(255 138 138); 
-    /* Soft Mint Green */
-    --aw-color-accent: rgb(152 226 208); 
+    /* Deepened Peach/Coral for readability on light backgrounds */
+    --aw-color-primary: rgb(218 105 105); 
+    --aw-color-secondary: rgb(198 85 85); 
+    /* Deepened Mint for contrast */
+    --aw-color-accent: rgb(90 190 165); 
 
-    /* Softer text colors instead of harsh black */
-    --aw-color-text-heading: rgb(44 44 44);
-    --aw-color-text-default: rgb(71 71 71);
-    --aw-color-text-muted: rgb(113 113 113);
-    /* Very soft warm off-white for the background */
+    /* Darkened text for stronger contrast */
+    --aw-color-text-heading: rgb(33 33 33);
+    --aw-color-text-default: rgb(55 55 55);
+    --aw-color-text-muted: rgb(99 99 99);
     --aw-color-bg-page: rgb(253 252 251); 
 
     --aw-color-bg-page-dark: rgb(23 25 35);
 
     ::selection {
-      /* Soft mint highlight when selecting text */
       background-color: rgb(152 226 208 / 40%); 
     }
   }
@@ -53,22 +32,18 @@ import '@fontsource-variable/inter';
     --aw-font-serif: 'Inter Variable';
     --aw-font-heading: 'Inter Variable';
 
-    /* Pastel Dark Mode Palette (Adjusted for contrast) */
-    /* Dusty Rose */
-    --aw-color-primary: rgb(244 143 143); 
-    /* Muted Salmon */
-    --aw-color-secondary: rgb(229 115 115); 
-    /* Seafoam */
-    --aw-color-accent: rgb(129 204 186); 
+    /* True soft pastels work perfectly on dark backgrounds */
+    --aw-color-primary: rgb(255 163 163); 
+    --aw-color-secondary: rgb(255 138 138); 
+    --aw-color-accent: rgb(152 226 208); 
 
     --aw-color-text-heading: rgb(247, 248, 248);
     --aw-color-text-default: rgb(229 236 246);
     --aw-color-text-muted: rgb(160 174 192);
-    /* Deep Slate instead of stark black */
     --aw-color-bg-page: rgb(26 32 44); 
 
     ::selection {
-      background-color: rgb(244 143 143 / 30%);
+      background-color: rgb(255 163 163 / 30%);
       color: snow;
     }
   }
