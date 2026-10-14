@@ -1,10 +1,12 @@
 import { getRssString } from '@astrojs/rss';
 import type { APIContext } from 'astro';
+import { getImage } from 'astro:assets'; // <-- 1. Add Astro's image processor
 
 import { SITE, METADATA, APP_BLOG } from 'astrowind:config';
 import { fetchPosts } from '~/utils/blog';
 import { getPermalink } from '~/utils/permalinks';
 import { getCollection } from 'astro:content';
+import { findImage } from '~/utils/images'; // <-- 2. Add AstroWind's image finder
 
 // Converts standard letters and digits into Unicode Sans-Serif Bold equivalents
 function toUnicodeBold(text: string): string {
@@ -34,17 +36,22 @@ export const GET = async ({ site }: APIContext) => {
     description: METADATA?.description || '',
     site: import.meta.env.SITE,
 
-    items: posts.map((post) => {
+    // 3. Wrap items in await Promise.all() so we can async-process the images
+    items: await Promise.all(posts.map(async (post) => {
       const rawFile = rawPosts.find((p) => p.id === post.id);
-      const imageUrl =
-        typeof post.image === 'string' && (site || import.meta.env.SITE)
-          ? new URL(post.image, site || import.meta.env.SITE).toString()
-          : '';
+      
+      let imageUrl = '';
+      if (post.image) {
+        // Find the internal file and force Astro to build its final public path
+        const image = await findImage(post.image);
+        if (image) {
+          const processedImage = await getImage({ src: image, format: 'jpg', width: 1200 });
+          imageUrl = new URL(processedImage.src, site || import.meta.env.SITE).toString();
+        }
+      }
 
       return {
-        // Bolds the title in the feed
         title: toUnicodeBold(post.title || ''),
-        // Kept plain so the Make.com "Summary" variable remains unbolded
         description: post.excerpt,
         content: rawFile?.body,
         pubDate: post.publishDate,
@@ -57,7 +64,7 @@ export const GET = async ({ site }: APIContext) => {
             }
           : undefined,
       };
-    }),
+    })),
 
     trailingSlash: SITE.trailingSlash,
   });
