@@ -13,13 +13,9 @@ draft: false
 ---
 Our plane wasn't able to land in Istanbul due to the weather, so we've landed at Bulgaria for the meantime. I write this while we refuel and await a better forecast.
 
-
-
 My sister, Claud, has come to join me for the first few days here, and see me off on my travels.
 
 She fares much better on planes than I do (after all, she's an air hostess). Meanwhile, I've packed a gazillion travel sickness tablets to see me through.
-
-
 
 I have the following rough itinerary in mind for my trip (provided I don't end up back in Bulgaria each time I fly):
 
@@ -49,8 +45,6 @@ I have the following rough itinerary in mind for my trip (provided I don't end u
 
 • ?
 
-
-
 I built it around a famous route called the banana pancake trail.
 
 ![](~/assets/images/167997.png)
@@ -59,24 +53,18 @@ Supposedly named for the banana pancakes that are the staple breakfast across th
 
 I won't be following the route exactly, but I'm definitely gonna have me some banana pancakes!
 
-
-
 Many thanks for making it to my blog. It's good to have you onboard. Hopefully, this is the first post of many!
 
-
-
 Got to go, they've just announced we're taking off.
-
-
 
 Your very own mullet man,
 
 Zach
 
-
-
-
-
 Sidenote, today I learnt Bulgaria has a city called Burgas 🍔
 
 ![](~/assets/images/167998.jpg)
+
+
+
+P.s. that image you see at the top of the post is from a recent trip to Lisbon. Yes, sorry I'm a faker, but the only other images I have right now are of Burgas airport!
