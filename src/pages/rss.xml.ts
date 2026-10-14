@@ -6,6 +6,18 @@ import { fetchPosts } from '~/utils/blog';
 import { getPermalink } from '~/utils/permalinks';
 import { getCollection } from 'astro:content';
 
+// Converts standard letters and digits into Unicode Sans-Serif Bold equivalents
+function toUnicodeBold(text: string): string {
+  if (!text) return '';
+  return text.replace(/[A-Za-z0-9]/g, (char) => {
+    const code = char.charCodeAt(0);
+    if (code >= 65 && code <= 90) return String.fromCodePoint(code - 65 + 0x1D5D4); // Uppercase (A-Z)
+    if (code >= 97 && code <= 122) return String.fromCodePoint(code - 97 + 0x1D5EE); // Lowercase (a-z)
+    if (code >= 48 && code <= 57) return String.fromCodePoint(code - 48 + 0x1D7EC); // Numbers (0-9)
+    return char;
+  });
+}
+
 export const GET = async ({ site }: APIContext) => {
   if (!APP_BLOG.isEnabled) {
     return new Response(null, {
@@ -30,7 +42,9 @@ export const GET = async ({ site }: APIContext) => {
           : '';
 
       return {
-        title: post.title,
+        // Bolds the title in the feed
+        title: toUnicodeBold(post.title || ''),
+        // Kept plain so the Make.com "Summary" variable remains unbolded
         description: post.excerpt,
         content: rawFile?.body,
         pubDate: post.publishDate,
