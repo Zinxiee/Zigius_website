@@ -19,88 +19,92 @@ const { post, url } = Astro.props;
 ---
 
 <section class="py-8 sm:py-12 lg:py-16 mx-auto max-w-5xl px-4 sm:px-6">
-  {/* Unified Glassmorphism Wrapper for the Single Post */}
-  <article class="rounded-[3rem] border border-white/70 dark:border-slate-800/70 bg-white/40 dark:bg-slate-900/40 backdrop-blur-lg shadow-xl shadow-rose-900/5 dark:shadow-none py-8 sm:py-12 lg:py-16">
+  {/* Tinted Pastel Glass Container for Single Posts */}
+  <article class="rounded-[3rem] border-2 border-rose-200/60 dark:border-teal-800/40 bg-gradient-to-br from-rose-100/65 via-purple-50/50 to-teal-100/65 dark:from-rose-950/35 dark:via-slate-900/70 dark:to-teal-950/35 backdrop-blur-xl shadow-[0_24px_80px_rgba(218,105,105,0.16)] dark:shadow-[0_24px_80px_rgba(0,0,0,0.4)] py-8 sm:py-12 lg:py-16">
     <header
       class={post.image
         ? 'intersect-once intersect-quarter motion-safe:md:opacity-0 motion-safe:md:intersect:animate-fade'
         : 'intersect-once intersect-quarter motion-safe:md:opacity-0 motion-safe:md:intersect:animate-fade'}
     >
       <div class="flex justify-between flex-col sm:flex-row max-w-3xl mx-auto mt-0 mb-2 px-4 sm:px-6 sm:items-center">
-        <p>
-          <Icon name="tabler:clock" class="w-4 h-4 inline-block -mt-0.5 dark:text-gray-400" />
-          <time datetime={String(post.publishDate)} class="inline-block">{getFormattedDate(post.publishDate)}</time>
+        <p class="flex flex-wrap items-center gap-2">
+          <span class="inline-flex items-center gap-1 rounded-full bg-teal-100/80 text-teal-900 dark:bg-teal-900/50 dark:text-teal-200 px-3 py-0.5 text-sm font-medium">
+            <Icon name="tabler:clock" class="w-4 h-4 inline-block" />
+            <time datetime={String(post.publishDate)}>{getFormattedDate(post.publishDate)}</time>
+          </span>
           {
             post.author && (
-              <>
-                {' '}
-                · <Icon name="tabler:user" class="w-4 h-4 inline-block -mt-0.5 dark:text-gray-400" />
-                <span class="inline-block">{post.author}</span>
-              </>
+              <span class="inline-flex items-center gap-1 rounded-full bg-amber-100/80 text-amber-900 dark:bg-amber-900/40 dark:text-amber-200 px-3 py-0.5 text-sm font-medium">
+                <Icon name="tabler:user" class="w-4 h-4 inline-block" />
+                <span>{post.author}</span>
+              </span>
             )
           }
           {
             post.category && (
-              <>
-                {' '}
-                ·{' '}
-                <a class="hover:underline inline-block" href={getPermalink(post.category.slug, 'category')}>
-                  {post.category.title}
-                </a>
-              </>
+              <a
+                class="inline-flex items-center rounded-full bg-rose-200/80 px-3 py-0.5 text-xs font-bold uppercase tracking-wider text-rose-900 hover:bg-rose-300/80 dark:bg-rose-900/50 dark:text-rose-200 transition-colors"
+                href={getPermalink(post.category.slug, 'category')}
+              >
+                {post.category.title}
+              </a>
             )
           }
           {
             post.readingTime && (
-              <>
-                &nbsp;· <span>{post.readingTime}</span> min read
-              </>
+              <span class="inline-flex items-center rounded-full bg-purple-100/80 text-purple-900 dark:bg-purple-900/40 dark:text-purple-200 px-3 py-0.5 text-sm font-medium">
+                {post.readingTime} min read
+              </span>
             )
           }
         </p>
       </div>
 
       <h1
-        class="px-4 sm:px-6 max-w-3xl mx-auto text-4xl md:text-5xl font-bold leading-tighter tracking-tighter font-heading"
+        class="px-4 sm:px-6 max-w-3xl mx-auto mt-4 text-4xl md:text-5xl font-bold leading-tighter tracking-tighter font-heading"
       >
         {post.title}
       </h1>
       <p
-        class="max-w-3xl mx-auto mt-4 mb-8 px-4 sm:px-6 text-xl md:text-2xl text-muted dark:text-slate-400 text-justify"
+        class="max-w-3xl mx-auto mt-4 mb-8 px-4 sm:px-6 text-xl md:text-2xl text-muted dark:text-slate-300 text-justify"
       >
         {post.excerpt}
       </p>
 
       {
         post.image ? (
-          <Image
-            src={post.image}
-            class="w-full h-auto max-w-full lg:max-w-[900px] mx-auto mb-6 sm:rounded-2xl bg-white/50 dark:bg-slate-800/50 shadow-sm"
-            style="object-fit: contain; object-position: center;"
-            widths={[400, 900]}
-            sizes="(max-width: 900px) 400px, 900px"
-            alt={post?.excerpt || ''}
-            width={900}
-            layout="responsive"
-            format="webp"
-            loading="eager"
-            decoding="async"
-          />
+          <div class="max-w-[900px] mx-auto mb-6 px-4 sm:px-6">
+            <div class="p-2 sm:p-3 rounded-3xl bg-gradient-to-br from-rose-200/60 via-amber-100/50 to-teal-200/60 dark:from-rose-900/30 dark:via-slate-800 dark:to-teal-900/30 shadow-md">
+              <Image
+                src={post.image}
+                class="w-full h-auto rounded-2xl bg-white/60 dark:bg-slate-900/60"
+                style="object-fit: contain; object-position: center;"
+                widths={[400, 900]}
+                sizes="(max-width: 900px) 400px, 900px"
+                alt={post?.excerpt || ''}
+                width={900}
+                layout="responsive"
+                format="webp"
+                loading="eager"
+                decoding="async"
+              />
+            </div>
+          </div>
         ) : (
           <div class="max-w-3xl mx-auto px-4 sm:px-6">
-            <div class="border-t border-gray-200/50 dark:border-slate-700/50" />
+            <div class="border-t border-rose-200/60 dark:border-slate-700/50" />
           </div>
         )
       }
     </header>
     <div
-      class="mx-auto px-6 sm:px-6 max-w-3xl prose prose-lg dark:prose-invert dark:prose-headings:text-slate-300 prose-headings:font-heading prose-headings:leading-tighter prose-headings:tracking-tighter prose-headings:font-bold prose-a:text-primary dark:prose-a:text-accent prose-img:rounded-2xl prose-img:shadow-lg mt-8 prose-p:leading-relaxed prose-headings:scroll-mt-[80px] prose-li:my-0"
+      class="mx-auto px-6 sm:px-8 py-6 max-w-3xl rounded-3xl bg-white/65 dark:bg-slate-950/50 backdrop-blur-md shadow-sm prose prose-lg dark:prose-invert dark:prose-headings:text-slate-200 prose-headings:font-heading prose-headings:leading-tighter prose-headings:tracking-tighter prose-headings:font-bold prose-a:text-primary dark:prose-a:text-accent prose-img:rounded-2xl prose-img:shadow-lg mt-8 prose-p:leading-relaxed prose-headings:scroll-mt-[80px] prose-li:my-0"
     >
       <slot />
     </div>
     <div class="mx-auto px-6 sm:px-6 max-w-3xl mt-8 flex justify-between flex-col sm:flex-row">
       <PostTags tags={post.tags} class="mr-5 rtl:mr-0 rtl:ml-5" />
-      <SocialShare url={url} text={post.title} class="mt-5 sm:mt-1 align-middle text-gray-500 dark:text-slate-500" />
+      <SocialShare url={url} text={post.title} class="mt-5 sm:mt-1 align-middle text-gray-500 dark:text-slate-400" />
     </div>
   </article>
 </section>
