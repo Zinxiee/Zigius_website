@@ -75,10 +75,6 @@ And here's a picture of me proudly showing off my golden spork!
 
 ![](~/assets/images/img-20261018-wa0014.jpg)
 
-
-
-
-
 Now apparently they call Istanbul the "City of Cats" and I can see why. The city if full of them, and they're well looked after.
 
 ![](~/assets/images/20261020_154140.jpg)
@@ -94,8 +90,6 @@ Now apparently they call Istanbul the "City of Cats" and I can see why. The city
 I especially love the paw prints found in the concrete. It really shows that Istanbul is a city owned by it's cats! 🐾
 
 ![](~/assets/images/20261019_233847.jpg)
-
-
 
 One afternoon, with my new friends Aksel and Stine, I visited the colourful, cobbled neighbourhood of Balat.
 
@@ -119,19 +113,15 @@ There are so many cats here riding motorcycles!
 
 We found a cafe and played a few games of Cambio!
 
-
-
-One evening, Bayel offered to sketch me. Check it out, he drew this on my phones notes app!
+One evening, Bayel offered to sketch me. Check it out, he drew this on my phone's notes app!
 
 ![](~/assets/images/screenshot_20261020_012101_samsung-notes.png)
-
-
 
 As new people arrived, I made more friends at the hostel!
 
 Cecile from France, Joe from Algeria, and Matt from Romania to name a few.
 
-
+•
 
 A Brazilian, a Turk, a German, an Aussie, a Kyrgyz, and a Brit walk into a bar...
 
@@ -153,15 +143,27 @@ We even learnt the basics of belly dancing! 💃
 
 ![](~/assets/images/img-20261021-wa0001.jpg)
 
+![](~/assets/images/170965.jpg)
+
+![](~/assets/images/170966.jpg)
+
+![](~/assets/images/img-20261021-wa0002.jpg)
+
 
 
 Overall Istanbul was a brilliant start to my trip but what really made it great was the people I met whilst there!
 
-
-
 Goodbye Istanbul, hello Mumbai!
 
+![](~/assets/images/süleymaniye.jpg)
 
+![](~/assets/images/puma_20261019_222500.jpg)
+
+•
+
+•
+
+•
 
 P.s. The standard baklava in Istanbul is good, but nothing compares to the cold baklava (soğuk baklava). If you ever get the chance to try it, I highly recommend!
 
