@@ -35,7 +35,7 @@ And this is Ufo the cat:
 
 They both work here.
 
-Claudia only had a day in Istanbul, so we made the most of it and visited many of the cities sights. Racking in a total of 45000 steps despite the weather!
+Claudia only had a day in Istanbul, so we made the most of it and visited many of the city's sights. Racking in a total of 45000 steps despite the weather!
 
 ![](~/assets/images/20261015_202251.jpg)
 
