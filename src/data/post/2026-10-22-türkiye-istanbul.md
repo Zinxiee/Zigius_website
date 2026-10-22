@@ -41,6 +41,8 @@ Claudia only had a day in Istanbul, so we made the most of it and visited many o
 
 ![](~/assets/images/20261015_210512.jpg)
 
+![](~/assets/images/20261015_210645.jpg)
+
 Claud left the following morning, hugging me and wishing me well on my travels.
 
 ![](~/assets/images/20261016_095228.jpg)
@@ -60,6 +62,8 @@ We spent the next few days exploring the city and trying it's food.
 ![](~/assets/images/img-20261020-wa0087.jpg)
 
 ![](~/assets/images/img-20261020-wa0049.jpg)
+
+![](~/assets/images/20261019_164444.jpg)
 
 ![](~/assets/images/img-20261019-wa0048.jpg)
 
@@ -149,13 +153,13 @@ We even learnt the basics of belly dancing! 💃
 
 ![](~/assets/images/img-20261021-wa0002.jpg)
 
-
-
 Overall Istanbul was a brilliant start to my trip but what really made it great was the people I met whilst there!
 
 Goodbye Istanbul, hello Mumbai!
 
 ![](~/assets/images/süleymaniye.jpg)
+
+![](~/assets/images/20261019_162706.jpg)
 
 ![](~/assets/images/puma_20261019_222500.jpg)
 
