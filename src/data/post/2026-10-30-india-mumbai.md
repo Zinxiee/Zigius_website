@@ -90,6 +90,8 @@ From there I had dinner with the gang and then it was time to catch my sleeper b
 
 ![](~/assets/images/173706.jpg)
 
+![](~/assets/images/173707.jpg)
+
 I should mention, it was my friend Alfiya who recommended Mumbai as my first stop (she's biased because she was born there 😉), but it was still a great first stop on my travels across India!
 
 Catch you next time!
