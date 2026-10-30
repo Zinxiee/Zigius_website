@@ -42,7 +42,7 @@ We then passed the Taj Mahal Palace (which is different to the Taj Mahal) and vi
 
 In the early hours of the morning one night I was unpacking my bags on the floor in the dark when one of my dorm mates tripped over me. It was my fault really, I should have had a torch on.
 
-But that's how I met Senthil. A wild and funny guy who knew his way around Bandra West. He invited me to a theatre show that night at the Chimbai Village Theatre, and we found some other travellers to join us.
+But that's how I met Senthil. A wild and funny guy who knew his way around Bandra West. He invited me to a theatre show that night at the Chimbai Village Theatre, and we were joined by others from the hostel.
 
 No spoilers, but the show titled "No Clear Rule" had a good twist, that in truth I should have seen coming!
 
@@ -72,7 +72,7 @@ The following day we explored Bandra West, which is apparently the "place to be"
 
 ![](~/assets/images/173711.jpg)
 
-On my way back, I accidentally found my way to a "Bombay Zine Fest" and learnt what a Zine was - a type of magazine that is made by a single person or small group. It was an amazing event and I'm so glad I stumbled upon it.
+On my way back, I accidentally found my way into a "Bombay Zine Fest" and learnt what a Zine was - a type of magazine that is made by a single person or small group. It was an amazing event and I'm so glad I stumbled upon it.
 
 ![](~/assets/images/173709.jpg)
 
@@ -89,8 +89,6 @@ From there I had dinner with the gang and then it was time to catch my sleeper b
 ![](~/assets/images/173708.jpg)
 
 ![](~/assets/images/173706.jpg)
-
-
 
 I should mention, it was my friend Alfiya who recommended Mumbai as my first stop (she's biased because she was born there 😉), but it was still a great first stop on my travels across India!
 
