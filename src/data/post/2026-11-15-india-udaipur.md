@@ -1,0 +1,64 @@
+---
+title: India, Udaipur
+publishDate: 2026-11-15T13:12:00.000+05:30
+image: ~/assets/images/179534.heic
+excerpt: >-
+  Welcome to Udaipur, The city of Lakes.
+
+  Five major artificial lakes surround the city, constructed between the 14th and 18th centuries. Beyond their beauty, they play an important role in flood control and water storage.
+
+
+  Every sunrise and sunset in Udaipur is indescribable. No photograph can ever truly do them justice!
+
+  This is me at the sunrise point in the Bahuballi Hills, near Udaipur. Heavily sleep-deprived, yet completely transfixed by the rising sun.
+draft: false
+---
+Hello World!
+
+I wrote parts of this whilst on the bus from Jaipur to Agra, but I come to post it whilst in McLeod Ganj in the Indian Himalayas.
+
+This means that, technically, I'm a bit behind on my posts. But hey, cut me some slack, I'm typing these out with my stubby meat sausages, I'm no ChatGPT!
+
+Since Udaipur I've visited Jaipur, Agra, and now Dharamshala/McLeod Ganj. So expect those blog posts the next time I find the time to write!
+
+
+
+At the end of my last post I boarded the plane to Udaipur from Delhi. But before I boarded, I met DJay, founder of the young monk hostel chain here in India.
+
+I got a taxi back from the airport with him, where we shared Amul dark chocolate and he invited me to a diwali party at his Udaipur hostel the following evening. His personal driver dropped me off at my hostel, Turtle hostel.
+
+![](~/assets/images/180631.jpg)
+
+From there I met the legendary Mahesh of Puducherry who works as a swimming instructor but is currently travelling his country. We've been travelling around India together since.
+
+![](~/assets/images/180635.heic)
+
+We first visited Udaipur's City Palace. My favourite takeaway being the (myth) origins of the word "crap" having originated from a Thomas Crapper, an English plumber and businessman. Don't even ask how this came up, I myself am still unsure of the context!
+
+![](~/assets/images/180630.jpg)
+
+![](~/assets/images/180628.jpg)
+
+![](~/assets/images/180627.jpg)
+
+![](~/assets/images/180626.jpg)
+
+Before the sunset we arrived at DJays young monk hostel for his pre-Diwali Party. A big shot indian musician was set to play. At the party I met Vaisakh, another roommate from my dorm. And as the sun set, we danced into the night!
+
+![](~/assets/images/180624.jpg)
+
+![](~/assets/images/180637.jpg)
+
+![](~/assets/images/180636.jpg)
+
+Upon our return to Turtle Hostel we joined a group of hostel staff and travellers playing acoustic guitar and singing songs on the rooftop.
+
+![](~/assets/images/180622.jpg)
+
+The following day me and Mahesh visited the Jagdish Temple, the intricate carvings on this temple is a sight to see!
+
+![](~/assets/images/180623.jpg)
+
+That evening we joined Devang - a manager at a nearby hostel - for a sunset hike to Karni Mata Temple and then onto the city walls.
+
+Standing on top of the world, we watched the sunset as the lights across the city flickered on.
