@@ -31,7 +31,7 @@ I got a taxi back from the airport with him, where we shared Amul dark chocolate
 
 From there I met the legendary Mahesh of Puducherry who works as a swimming instructor but is currently travelling his country. We've been travelling around India together since.
 
-![](~/assets/images/180635.heic)
+![](~/assets/images/180647.jpg)
 
 We first visited Udaipur's City Palace. My favourite takeaway being the (myth) origins of the word "crap" having originated from a Thomas Crapper, an English plumber and businessman. Don't even ask how this came up, I myself am still unsure of the context!
 
@@ -130,3 +130,13 @@ That's all for now folks, till next time!
 
 
 P.s. Fun fact, many scenes in the 1983 James Bond film 'Octopussy' were filmed across Udaipur, such as in Monsoon Palace and Jagmandir Island Palace. I guess that means I should probably add it to my movie list!
+
+
+
+
+
+
+
+In other news, Bob Dylan visited the Pope dressed as a Sith Lord. What a legend.
+
+![](~/assets/images/180648.png)
