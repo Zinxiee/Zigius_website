@@ -21,7 +21,7 @@ This means that, technically, I'm a bit behind on my posts. But hey, cut me some
 
 Since Udaipur I've visited Jaipur, Agra, and now Dharamshala/McLeod Ganj. So expect those blog posts the next time I find the time to write!
 
-
+I fly to China, Chongqing, on the 18th November, so perhaps I'll find time to write then.
 
 At the end of my last post I boarded the plane to Udaipur from Delhi. But before I boarded, I met DJay, founder of the young monk hostel chain here in India.
 
@@ -59,6 +59,44 @@ The following day me and Mahesh visited the Jagdish Temple, the intricate carvin
 
 ![](~/assets/images/180623.jpg)
 
+![](~/assets/images/180589.jpg)
+
 That evening we joined Devang - a manager at a nearby hostel - for a sunset hike to Karni Mata Temple and then onto the city walls.
 
 Standing on top of the world, we watched the sunset as the lights across the city flickered on.
+
+![](~/assets/images/180616.jpg)
+
+![](~/assets/images/180617.jpg)
+
+![](~/assets/images/180615.jpg)
+
+![](~/assets/images/180611.jpg)
+
+In this picture, from atop the city walls, you can see Udaipur's Old City, the City Palace, the Taj Lake Palace, Jagmandir Island Palace, the Aravalli mountains - the oldest range of fold mountains in the world, and two of the five major man-made lakes surrouding Udaipur. Lake Pichola and Lake Fateh Sagar.
+
+![](~/assets/images/180618.jpg)
+
+13 hours later, with minimal sleep, we rode under the stars to the Baahubali Hills to watch the sunrise over Badi lake.
+
+![](~/assets/images/180608.jpg)
+
+![](~/assets/images/180613.jpg)
+
+![](~/assets/images/180612.jpg)
+
+The next few days in Udaipur consisted of great food, a sunset at monsoon palace overlooking the Aravalli mountains, and Udaipur's famous cultural dance show - the Dharohar folk dance.
+
+![](~/assets/images/180614.jpg)
+
+![](~/assets/images/180620.jpg)
+
+![](~/assets/images/180633.jpg)
+
+![](~/assets/images/180592.jpg)
+
+![](~/assets/images/180632.jpg)
+
+![](~/assets/images/180625.jpg)
+
+![](~/assets/images/180588.jpg)
