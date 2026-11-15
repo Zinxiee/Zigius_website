@@ -85,7 +85,7 @@ In this picture, from atop the city walls, you can see Udaipur's Old City, the C
 
 ![](~/assets/images/180593.jpg)
 
-The next few days in Udaipur consisted of great food, a sunset at monsoon palace overlooking the Aravalli mountains, and Udaipur's famous cultural dance show - the Dharohar folk dance.
+The next few days in Udaipur consisted of great food, a sunset at Monsoon Palace overlooking the Aravalli mountains, and Udaipur's famous cultural dance show - the Dharohar folk dance.
 
 ![](~/assets/images/180614.jpg)
 
@@ -97,11 +97,7 @@ The next few days in Udaipur consisted of great food, a sunset at monsoon palace
 
 ![](~/assets/images/180632.jpg)
 
-
-
 ![](~/assets/images/180588.jpg)
-
-
 
 ![](~/assets/images/180619.jpg)
 
@@ -123,20 +119,14 @@ The next few days in Udaipur consisted of great food, a sunset at monsoon palace
 
 ![](~/assets/images/180595.jpg)
 
-
-
 That's all for now folks, till next time!
+
+
 
 
 
 P.s. Fun fact, many scenes in the 1983 James Bond film 'Octopussy' were filmed across Udaipur, such as in Monsoon Palace and Jagmandir Island Palace. I guess that means I should probably add it to my movie list!
 
-
-
-
-
-
-
-In other news, Bob Dylan visited the Pope dressed as a Sith Lord. What a legend.
+In other news, Bob Dylan visited the Pope dressed as a Sith Lord... What a legend.
 
 ![](~/assets/images/180648.png)
