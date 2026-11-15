@@ -122,3 +122,11 @@ The next few days in Udaipur consisted of great food, a sunset at monsoon palace
 ![](~/assets/images/180602.jpg)
 
 ![](~/assets/images/180595.jpg)
+
+
+
+That's all for now folks, till next time!
+
+
+
+P.s. Fun fact, many scenes in the 1983 James Bond film 'Octopussy' were filmed across Udaipur, such as in Monsoon Palace and Jagmandir Island Palace. I guess that means I should probably add it to my movie list!
