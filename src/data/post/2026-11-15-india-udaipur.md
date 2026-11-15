@@ -83,7 +83,7 @@ In this picture, from atop the city walls, you can see Udaipur's Old City, the C
 
 ![](~/assets/images/180613.jpg)
 
-![](~/assets/images/180612.jpg)
+![](~/assets/images/180593.jpg)
 
 The next few days in Udaipur consisted of great food, a sunset at monsoon palace overlooking the Aravalli mountains, and Udaipur's famous cultural dance show - the Dharohar folk dance.
 
@@ -97,6 +97,28 @@ The next few days in Udaipur consisted of great food, a sunset at monsoon palace
 
 ![](~/assets/images/180632.jpg)
 
-![](~/assets/images/180625.jpg)
+
 
 ![](~/assets/images/180588.jpg)
+
+
+
+![](~/assets/images/180619.jpg)
+
+![](~/assets/images/180625.jpg)
+
+![](~/assets/images/180594.jpg)
+
+![](~/assets/images/180601.jpg)
+
+![](~/assets/images/180610.jpg)
+
+![](~/assets/images/180599.jpg)
+
+![](~/assets/images/180607.jpg)
+
+![](~/assets/images/180603.jpg)
+
+![](~/assets/images/180602.jpg)
+
+![](~/assets/images/180595.jpg)
