@@ -1,7 +1,7 @@
 ---
 title: India, Udaipur
 publishDate: 2026-11-15T13:12:00.000+05:30
-image: ~/assets/images/179534.heic
+image: ~/assets/images/img20261103071725.jpg
 excerpt: >-
   Welcome to Udaipur, The city of Lakes.
 
